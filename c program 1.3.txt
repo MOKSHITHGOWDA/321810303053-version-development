@@ -1,0 +1,36 @@
+#include<math.h>
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a=5, b=20, c=10,d,root1,root2,j;
+clrscr();
+d=(b*b)-(4*a*c);
+if(a==0)
+    printf("divide by zero error")
+else if(d>0)
+       {
+ 	 print("roots are real")
+        root1=(((-b)+sqrt(d))/(2*a))
+        root2=(((-b)-sqrt(d))/(2*a))
+        printf("the roots are: %f and %f" %(root1,root2))
+   }
+ else if(d<0)
+ 	{
+       printf("roots are imaginary")
+        root1=root2=(-b/(2*a))
+        j=(sqrt(-d))/(2*a)
+        printf("root1= %.2f + %.2f i and root2= %.2f - %.2f i"%(root1,j,root2,j))
+    }
+else
+ {
+       printf("roots are equal")
+        root1=root2=(-b/(2*a))
+        printf("root1= %.2f  and root2= %.2f "%(root1,root2))
+}
+getch();
+}
+
+
+divide by zero error
+->bugs are fixed..... ->divide by zero error is thrown

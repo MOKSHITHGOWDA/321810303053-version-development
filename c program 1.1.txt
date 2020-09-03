@@ -1,0 +1,27 @@
+#include<math.h>
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a=5, b=20, c=10,d,root1,root2;
+clrscr();
+d=(b*b)-(4*a*c);
+if(d > 0)
+ {
+        root1 = (-b + sqrt(d)) / (2 * a);
+        root2 = (-b - sqrt(d)) / (2 * a);
+        printf("root1 = %f and root2 = %f", root1, root2);
+    }
+
+    
+    else if(d == 0) 
+{
+        root1 = root2 = -b / (2 * a);
+        printf("root1 = root2 = %f;", root1);
+getch();
+}
+
+
+roots are imaginary
+root1= -2.00 + 1.00 i and root2= -2.00 - 1.00 i
+->bugs fixed.... ->could not get complex values before

@@ -1,0 +1,16 @@
+#include<math.h>
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a=5, b=20, c=10,d,root1,root2;
+clrscr();
+d=(b*b)-(4*a*c);
+root1=(((-b)+sqrt0d))/(2*a));
+root1=(((-b)-sqrt0d))/(2*a));
+printf("the roots are:" %f and %f",root1,root2);
+getch();
+}
+
+output:the roots are:  -0.585786 and -3.414214
+basic implementation of quadratic equation
